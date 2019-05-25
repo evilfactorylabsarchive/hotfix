@@ -1,0 +1,784 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing App shows "Hello world!" 1`] = `
+Array [
+  <div
+    className="o-hero"
+  >
+    <div
+      className="o-hero__content"
+    >
+      <h1
+        className="h2"
+      >
+        Curating the best Programming videos
+      </h1>
+      <p>
+        By Developers for Developers
+      </p>
+      <br />
+      <p>
+        <a
+          href="/explore"
+          onClick={[Function]}
+        >
+          Explore -&gt;
+        </a>
+      </p>
+    </div>
+    <style
+      jsx={true}
+    >
+      
+        .o-hero {
+          padding: 2rem;
+          height: 90vh;
+          width: 100%;
+          display: table;
+        }
+        .o-hero__content {
+          display: table-cell;
+          vertical-align: middle;
+        }
+      
+    </style>
+  </div>,
+  <main>
+    <h2
+      className="h3"
+    >
+      Our hand-curated 
+      <em>
+        Screencasters
+      </em>
+    </h2>
+    <p>
+      We love those people—and you will too—because they shares so many great tutorials for Web Developer in Bahasa. Help us to reach more people if your favorite ones is not listed here yet.
+    </p>
+    <div
+      className="o-hosts__container"
+    >
+      <div
+        className="c-minicard"
+      >
+        <img
+          alt="Sandhika Galih"
+          className="c-minicard__img"
+          src="/static/img/avatar/UCkXmLjEr95LVtGuIm3l2dPg.jpg"
+        />
+        <p>
+          <strong>
+            Sandhika Galih
+          </strong>
+        </p>
+        <p
+          className="c-minicard__description"
+        >
+          Sandhika is a lecture of Informatics Study Program at Pasundan University, Bandung.
+        </p>
+        <a
+          className="c-button"
+          href="/channel/UCkXmLjEr95LVtGuIm3l2dPg"
+          onClick={[Function]}
+        >
+          View
+        </a>
+        <style
+          jsx={true}
+        >
+          
+        .c-minicard__description {
+          font-size: 14px;
+          margin-top: 10px;
+          line-height: 1.2rem;
+          color: #bbb;
+        }
+        .c-minicard {
+          border: 1px solid #666;
+          padding: 15px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          transition: 0.2s all;
+        }
+        .c-minicard:hover {
+          border-color: #fff;
+        }
+        .c-minicard:hover &gt; .c-minicard__description {
+          color: #fff;
+        }
+        .c-minicard:hover .c-minicard__img {
+          filter: grayscale(0);
+        }
+        .c-minicard__img {
+          margin-bottom: 20px;
+          border: 2px solid #ccc;
+          border-radius: 999px;
+          width: 100px;
+          filter: grayscale(100%);
+        }
+      
+        </style>
+      </div>
+      <div
+        className="c-minicard"
+      >
+        <img
+          alt="Faqihza Mukhlish"
+          className="c-minicard__img"
+          src="/static/img/avatar/faqihzamukhlish.jpg"
+        />
+        <p>
+          <strong>
+            Faqihza Mukhlish
+          </strong>
+        </p>
+        <p
+          className="c-minicard__description"
+        >
+          Faqihza is a researcher in Controlling System field. He is now taking PhD at UNSW, Sydney.
+        </p>
+        <a
+          className="c-button"
+          href="/channel/faqihzamukhlish"
+          onClick={[Function]}
+        >
+          View
+        </a>
+        <style
+          jsx={true}
+        >
+          
+        .c-minicard__description {
+          font-size: 14px;
+          margin-top: 10px;
+          line-height: 1.2rem;
+          color: #bbb;
+        }
+        .c-minicard {
+          border: 1px solid #666;
+          padding: 15px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          transition: 0.2s all;
+        }
+        .c-minicard:hover {
+          border-color: #fff;
+        }
+        .c-minicard:hover &gt; .c-minicard__description {
+          color: #fff;
+        }
+        .c-minicard:hover .c-minicard__img {
+          filter: grayscale(0);
+        }
+        .c-minicard__img {
+          margin-bottom: 20px;
+          border: 2px solid #ccc;
+          border-radius: 999px;
+          width: 100px;
+          filter: grayscale(100%);
+        }
+      
+        </style>
+      </div>
+      <div
+        className="c-minicard"
+      >
+        <img
+          alt="Hilman Ramadhan"
+          className="c-minicard__img"
+          src="/static/img/avatar/UCpSPS5yLCxYRuZSrCx-eBjA.jpg"
+        />
+        <p>
+          <strong>
+            Hilman Ramadhan
+          </strong>
+        </p>
+        <p
+          className="c-minicard__description"
+        >
+          Hilman is founder of Sekolah Koding where he shares Web Development & Programming tutorials.
+        </p>
+        <a
+          className="c-button"
+          href="/channel/UCpSPS5yLCxYRuZSrCx-eBjA"
+          onClick={[Function]}
+        >
+          View
+        </a>
+        <style
+          jsx={true}
+        >
+          
+        .c-minicard__description {
+          font-size: 14px;
+          margin-top: 10px;
+          line-height: 1.2rem;
+          color: #bbb;
+        }
+        .c-minicard {
+          border: 1px solid #666;
+          padding: 15px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          transition: 0.2s all;
+        }
+        .c-minicard:hover {
+          border-color: #fff;
+        }
+        .c-minicard:hover &gt; .c-minicard__description {
+          color: #fff;
+        }
+        .c-minicard:hover .c-minicard__img {
+          filter: grayscale(0);
+        }
+        .c-minicard__img {
+          margin-bottom: 20px;
+          border: 2px solid #ccc;
+          border-radius: 999px;
+          width: 100px;
+          filter: grayscale(100%);
+        }
+      
+        </style>
+      </div>
+      <div
+        className="c-minicard"
+      >
+        <img
+          alt="Muhammad Amirul Ihsan"
+          className="c-minicard__img"
+          src="/static/img/avatar/UChccjG2gYrS-y9yUteVV3Mg.jpg"
+        />
+        <p>
+          <strong>
+            Muhammad Amirul Ihsan
+          </strong>
+        </p>
+        <p
+          className="c-minicard__description"
+        >
+          Amirul is founder of Kawan Koding and Kelas Laravel where he shares about Web Development tutorials mostly about Laravel and Vue.
+        </p>
+        <a
+          className="c-button"
+          href="/channel/UChccjG2gYrS-y9yUteVV3Mg"
+          onClick={[Function]}
+        >
+          View
+        </a>
+        <style
+          jsx={true}
+        >
+          
+        .c-minicard__description {
+          font-size: 14px;
+          margin-top: 10px;
+          line-height: 1.2rem;
+          color: #bbb;
+        }
+        .c-minicard {
+          border: 1px solid #666;
+          padding: 15px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          transition: 0.2s all;
+        }
+        .c-minicard:hover {
+          border-color: #fff;
+        }
+        .c-minicard:hover &gt; .c-minicard__description {
+          color: #fff;
+        }
+        .c-minicard:hover .c-minicard__img {
+          filter: grayscale(0);
+        }
+        .c-minicard__img {
+          margin-bottom: 20px;
+          border: 2px solid #ccc;
+          border-radius: 999px;
+          width: 100px;
+          filter: grayscale(100%);
+        }
+      
+        </style>
+      </div>
+      <div
+        className="c-minicard"
+      >
+        <img
+          alt="Riza Fahmi"
+          className="c-minicard__img"
+          src="/static/img/avatar/ryanriggsy.jpg"
+        />
+        <p>
+          <strong>
+            Riza Fahmi
+          </strong>
+        </p>
+        <p
+          className="c-minicard__description"
+        >
+          Riza is Developer Evangelist at Hacktiv8, podcaster at Ceritanya Developer and Screencaster at Random Screencasts
+        </p>
+        <a
+          className="c-button"
+          href="/channel/ryanriggsy"
+          onClick={[Function]}
+        >
+          View
+        </a>
+        <style
+          jsx={true}
+        >
+          
+        .c-minicard__description {
+          font-size: 14px;
+          margin-top: 10px;
+          line-height: 1.2rem;
+          color: #bbb;
+        }
+        .c-minicard {
+          border: 1px solid #666;
+          padding: 15px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          transition: 0.2s all;
+        }
+        .c-minicard:hover {
+          border-color: #fff;
+        }
+        .c-minicard:hover &gt; .c-minicard__description {
+          color: #fff;
+        }
+        .c-minicard:hover .c-minicard__img {
+          filter: grayscale(0);
+        }
+        .c-minicard__img {
+          margin-bottom: 20px;
+          border: 2px solid #ccc;
+          border-radius: 999px;
+          width: 100px;
+          filter: grayscale(100%);
+        }
+      
+        </style>
+      </div>
+      <div
+        className="c-minicard"
+      >
+        <img
+          alt="Eko Kurniawan Khannedy"
+          className="c-minicard__img"
+          src="/static/img/avatar/UC14ZKB9XsDZbnHVmr4AmUpQ.jpg"
+        />
+        <p>
+          <strong>
+            Eko Kurniawan Khannedy
+          </strong>
+        </p>
+        <p
+          className="c-minicard__description"
+        >
+          Eko is Senior Principal R&D Engineer at Blibli. A Software Architect & Content creator
+        </p>
+        <a
+          className="c-button"
+          href="/channel/UC14ZKB9XsDZbnHVmr4AmUpQ"
+          onClick={[Function]}
+        >
+          View
+        </a>
+        <style
+          jsx={true}
+        >
+          
+        .c-minicard__description {
+          font-size: 14px;
+          margin-top: 10px;
+          line-height: 1.2rem;
+          color: #bbb;
+        }
+        .c-minicard {
+          border: 1px solid #666;
+          padding: 15px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          transition: 0.2s all;
+        }
+        .c-minicard:hover {
+          border-color: #fff;
+        }
+        .c-minicard:hover &gt; .c-minicard__description {
+          color: #fff;
+        }
+        .c-minicard:hover .c-minicard__img {
+          filter: grayscale(0);
+        }
+        .c-minicard__img {
+          margin-bottom: 20px;
+          border: 2px solid #ccc;
+          border-radius: 999px;
+          width: 100px;
+          filter: grayscale(100%);
+        }
+      
+        </style>
+      </div>
+      <div
+        className="c-minicard"
+      >
+        <img
+          alt="Galih Pratama"
+          className="c-minicard__img"
+          src="/static/img/avatar/UClWBVXTagK9stScJlsHeEGA.jpg"
+        />
+        <p>
+          <strong>
+            Galih Pratama
+          </strong>
+        </p>
+        <p
+          className="c-minicard__description"
+        >
+          Galih is Founder of Belajar Koding and Head of Digital Product at LEXAR
+        </p>
+        <a
+          className="c-button"
+          href="/channel/UClWBVXTagK9stScJlsHeEGA"
+          onClick={[Function]}
+        >
+          View
+        </a>
+        <style
+          jsx={true}
+        >
+          
+        .c-minicard__description {
+          font-size: 14px;
+          margin-top: 10px;
+          line-height: 1.2rem;
+          color: #bbb;
+        }
+        .c-minicard {
+          border: 1px solid #666;
+          padding: 15px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          transition: 0.2s all;
+        }
+        .c-minicard:hover {
+          border-color: #fff;
+        }
+        .c-minicard:hover &gt; .c-minicard__description {
+          color: #fff;
+        }
+        .c-minicard:hover .c-minicard__img {
+          filter: grayscale(0);
+        }
+        .c-minicard__img {
+          margin-bottom: 20px;
+          border: 2px solid #ccc;
+          border-radius: 999px;
+          width: 100px;
+          filter: grayscale(100%);
+        }
+      
+        </style>
+      </div>
+      <div
+        className="c-minicard"
+      >
+        <div
+          className="o-placeholder__avatar"
+        />
+        <p
+          className="o-placeholder__title"
+        />
+        <p
+          className="o-placeholder__description"
+        />
+        <p
+          className="o-placeholder__description"
+        />
+        <button
+          className="o-placeholder__button"
+        />
+        <style
+          jsx={true}
+        >
+          
+        .o-placeholder__avatar,
+        .o-placeholder__title,
+        .o-placeholder__description,
+        .o-placeholder__button {
+          margin: auto;
+          max-width: 100%;
+          background-color: #ccc;
+          display: block;
+        }
+        .o-placeholder__avatar {
+          margin-bottom: 2rem;
+          width: 100px;
+          height: 100px;
+          border-radius: 999px;
+        }
+        .o-placeholder__title {
+          margin-bottom: 1rem;
+          border-radius: 3px;
+          width: 150px;
+          height: 25px;
+        }
+        .o-placeholder__button,
+        .o-placeholder__description {
+          margin-bottom: 1rem;
+          width: 190px;
+          height: 13.37px;
+          border-radius: 999px;
+        }
+        .o-placeholder__button {
+          border: 0;
+          pointer-events: none;
+          margin-top: 1.5rem;
+          border-radius: 3px;
+          padding-top: 1.3rem;
+          padding-bottom: 1.3rem;
+        }
+      
+        </style>
+        <style
+          jsx={true}
+        >
+          
+        .c-minicard__description {
+          font-size: 14px;
+          margin-top: 10px;
+          line-height: 1.2rem;
+          color: #bbb;
+        }
+        .c-minicard {
+          border: 1px solid #666;
+          padding: 15px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          transition: 0.2s all;
+        }
+        .c-minicard:hover {
+          border-color: #fff;
+        }
+        .c-minicard:hover &gt; .c-minicard__description {
+          color: #fff;
+        }
+        .c-minicard:hover .c-minicard__img {
+          filter: grayscale(0);
+        }
+        .c-minicard__img {
+          margin-bottom: 20px;
+          border: 2px solid #ccc;
+          border-radius: 999px;
+          width: 100px;
+          filter: grayscale(100%);
+        }
+      
+        </style>
+      </div>
+      <div
+        className="c-minicard"
+      >
+        <div
+          className="o-placeholder__avatar"
+        />
+        <p
+          className="o-placeholder__title"
+        />
+        <p
+          className="o-placeholder__description"
+        />
+        <p
+          className="o-placeholder__description"
+        />
+        <button
+          className="o-placeholder__button"
+        />
+        <style
+          jsx={true}
+        >
+          
+        .o-placeholder__avatar,
+        .o-placeholder__title,
+        .o-placeholder__description,
+        .o-placeholder__button {
+          margin: auto;
+          max-width: 100%;
+          background-color: #ccc;
+          display: block;
+        }
+        .o-placeholder__avatar {
+          margin-bottom: 2rem;
+          width: 100px;
+          height: 100px;
+          border-radius: 999px;
+        }
+        .o-placeholder__title {
+          margin-bottom: 1rem;
+          border-radius: 3px;
+          width: 150px;
+          height: 25px;
+        }
+        .o-placeholder__button,
+        .o-placeholder__description {
+          margin-bottom: 1rem;
+          width: 190px;
+          height: 13.37px;
+          border-radius: 999px;
+        }
+        .o-placeholder__button {
+          border: 0;
+          pointer-events: none;
+          margin-top: 1.5rem;
+          border-radius: 3px;
+          padding-top: 1.3rem;
+          padding-bottom: 1.3rem;
+        }
+      
+        </style>
+        <style
+          jsx={true}
+        >
+          
+        .c-minicard__description {
+          font-size: 14px;
+          margin-top: 10px;
+          line-height: 1.2rem;
+          color: #bbb;
+        }
+        .c-minicard {
+          border: 1px solid #666;
+          padding: 15px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          transition: 0.2s all;
+        }
+        .c-minicard:hover {
+          border-color: #fff;
+        }
+        .c-minicard:hover &gt; .c-minicard__description {
+          color: #fff;
+        }
+        .c-minicard:hover .c-minicard__img {
+          filter: grayscale(0);
+        }
+        .c-minicard__img {
+          margin-bottom: 20px;
+          border: 2px solid #ccc;
+          border-radius: 999px;
+          width: 100px;
+          filter: grayscale(100%);
+        }
+      
+        </style>
+      </div>
+      <div
+        className="c-minicard"
+      >
+        <img
+          alt="Suggest Us?"
+          className="c-minicard__img"
+          src="/static/img/avatar/eee.png"
+        />
+        <p>
+          <strong>
+            Suggest Us?
+          </strong>
+        </p>
+        <p
+          className="c-minicard__description"
+        >
+          There are so many awesome people out there in Indonesia, and we need your help to submit your favorites here.
+        </p>
+        <a
+          className="c-button"
+          href="/submit"
+          onClick={[Function]}
+        >
+          View
+        </a>
+        <style
+          jsx={true}
+        >
+          
+        .c-minicard__description {
+          font-size: 14px;
+          margin-top: 10px;
+          line-height: 1.2rem;
+          color: #bbb;
+        }
+        .c-minicard {
+          border: 1px solid #666;
+          padding: 15px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          transition: 0.2s all;
+        }
+        .c-minicard:hover {
+          border-color: #fff;
+        }
+        .c-minicard:hover &gt; .c-minicard__description {
+          color: #fff;
+        }
+        .c-minicard:hover .c-minicard__img {
+          filter: grayscale(0);
+        }
+        .c-minicard__img {
+          margin-bottom: 20px;
+          border: 2px solid #ccc;
+          border-radius: 999px;
+          width: 100px;
+          filter: grayscale(100%);
+        }
+      
+        </style>
+      </div>
+    </div>
+    <style
+      jsx={true}
+    >
+      
+          main {
+            margin-bottom: 8rem;
+            text-align: center;
+          }
+          p {
+            margin: auto;
+            margin-top: 10px;
+            width: 90%;
+          }
+          .o-hosts__container {
+            display: grid;
+            margin-top: 4rem;
+            margin-bottom: 10px;
+            grid-template-columns: 50% 50%;
+          }
+          @media screen and (min-width: 64em) {
+            main {
+              padding: 2rem;
+            }
+            p {
+              width: 40%;
+            }
+            .o-hosts__container {
+              grid-template-columns: 20% 20% 20% 20% 20%;
+            }
+          }
+          @media screen and (min-width: 48em) and (max-width: 64em) {
+            p {
+              width: 66.6%;
+            }
+            .o-hosts__container {
+              grid-template-columns: 33% 33% 33%;
+            }
+          }
+        
+    </style>
+  </main>,
+]
+`;
