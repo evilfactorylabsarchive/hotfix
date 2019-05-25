@@ -1,8 +1,23 @@
+import { Query } from 'react-apollo'
+import { gql } from 'apollo-boost'
+
 import Head from 'next/head'
 import Hero from '../components/Hero'
 import MiniCard from '../components/MiniCard'
 
-import hosts from '../fixtures/hosts.json'
+// TODO: Use shared `gql` across frontend/backend
+
+const allHostsQuery = gql`
+  query {
+    Hosts {
+      id
+      name
+      about
+      avatar
+      url
+    }
+  }
+`
 
 export default () => (
   <>
@@ -23,16 +38,22 @@ export default () => (
         your favorite ones is not listed here yet.
       </p>
       <div className='o-hosts__container'>
-        {hosts.map(host => (
-          <MiniCard
-            key={host.id}
-            title={host.name}
-            description={host.about}
-            image={host.avatar}
-            placeholder={host.name === ''}
-            cta={{ title: 'View', url: host.url }}
-          />
-        ))}
+        <Query query={allHostsQuery}>
+          {({ loading, error, data: { Hosts } }) => {
+            if (error) return <p>Something went wrong and We have no idea :(</p>
+            if (loading) return <p>Loading...</p>
+            return Hosts.map(host => (
+              <MiniCard
+                key={host.id}
+                title={host.name}
+                description={host.about}
+                image={host.avatar}
+                placeholder={host.name === ''}
+                cta={{ title: 'View', url: host.url }}
+              />
+            ))
+          }}
+        </Query>
       </div>
       <style jsx>
         {`
