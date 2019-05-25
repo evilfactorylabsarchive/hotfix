@@ -1,0 +1,70 @@
+[
+  {
+    "id": "UCkXmLjEr95LVtGuIm3l2dPg",
+    "name": "Sandhika Galih",
+    "about": "Sandhika is a lecture of Informatics Study Program at Pasundan University, Bandung.",
+    "avatar": "/static/img/avatar/UCkXmLjEr95LVtGuIm3l2dPg.jpg",
+    "url": "/channel/UCkXmLjEr95LVtGuIm3l2dPg"
+  },
+  {
+    "id": "faqihzamukhlish",
+    "name": "Faqihza Mukhlish",
+    "about": "Faqihza is a researcher in Controlling System field. He is now taking PhD at UNSW, Sydney.",
+    "avatar": "/static/img/avatar/faqihzamukhlish.jpg",
+    "url": "/channel/faqihzamukhlish"
+  },
+  {
+    "id": "UCpSPS5yLCxYRuZSrCx-eBjA",
+    "name": "Hilman Ramadhan",
+    "about": "Hilman is founder of Sekolah Koding where he shares Web Development & Programming tutorials.",
+    "avatar": "/static/img/avatar/UCpSPS5yLCxYRuZSrCx-eBjA.jpg",
+    "url": "/channel/UCpSPS5yLCxYRuZSrCx-eBjA"
+  },
+  {
+    "id": "UChccjG2gYrS-y9yUteVV3Mg",
+    "name": "Muhammad Amirul Ihsan",
+    "about": "Amirul is founder of Kawan Koding and Kelas Laravel where he shares about Web Development tutorials mostly about Laravel and Vue.",
+    "avatar": "/static/img/avatar/UChccjG2gYrS-y9yUteVV3Mg.jpg",
+    "url": "/channel/UChccjG2gYrS-y9yUteVV3Mg"
+  },
+  {
+    "id": "ryanriggsy",
+    "name": "Riza Fahmi",
+    "about": "Riza is Developer Evangelist at Hacktiv8, podcaster at Ceritanya Developer and Screencaster at Random Screencasts",
+    "avatar": "/static/img/avatar/ryanriggsy.jpg",
+    "url": "/channel/ryanriggsy"
+  },
+  {
+    "id": "UC14ZKB9XsDZbnHVmr4AmUpQ",
+    "name": "Eko Kurniawan Khannedy",
+    "about": "Eko is Senior Principal R&D Engineer at Blibli. A Software Architect & Content creator",
+    "avatar": "/static/img/avatar/UC14ZKB9XsDZbnHVmr4AmUpQ.jpg",
+    "url": "/channel/UC14ZKB9XsDZbnHVmr4AmUpQ"
+  },
+  {
+    "id": "UClWBVXTagK9stScJlsHeEGA",
+    "name": "Galih Pratama",
+    "about": "Galih is Founder of Belajar Koding and Head of Digital Product at LEXAR",
+    "avatar": "/static/img/avatar/UClWBVXTagK9stScJlsHeEGA.jpg",
+    "url": "/channel/UClWBVXTagK9stScJlsHeEGA"
+  },
+  {
+    "id": 1337,
+    "name": "",
+    "about": "",
+    "avatar": ""
+  },
+  {
+    "id": 666,
+    "name": "",
+    "about": "",
+    "avatar": ""
+  },
+  {
+    "id": 31337,
+    "name": "Suggest Us?",
+    "about": "There are so many awesome people out there in Indonesia, and we need your help to submit your favorites here.",
+    "avatar": "https://via.placeholder.com/200/eee/eee",
+    "url": "/submit"
+  }
+]

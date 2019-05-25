@@ -1,0 +1,12 @@
+* v1.0.0 - Public Beta [0/4] - [0%]
+** frontend
+        - [ ] SEO Stuffs
+        - [ ] Pages [0/3]
+              - [ ] explore
+              - [ ] question
+              - [ ] channel (dynamic)
+        - [ ] Integrate with Youtube API
+        - [ ] Google Analytics
+** backend
+
+TODO
