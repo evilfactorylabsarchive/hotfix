@@ -7,6 +7,10 @@
       "src": "/(.*)",
       "dest": "frontend/$1",
       "headers": { "x-request-path": "/$1" }
+    },
+    {
+      "src": "/_next/static/(?:[^/]+/pages|chunks|runtime)/.+",
+      "headers": { "cache-control": "immutable,max-age=31536000" }
     }
   ]
 }
