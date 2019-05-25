@@ -19,7 +19,7 @@ describe("With Enzyme", () => {
 });
 
 describe("With Snapshot Testing", () => {
-  it('App shows "Hello world!"', () => {
+  it('App shows "We love those people—and you will too—because they shares so many great..."', () => {
     const component = renderer.create(<App />);
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
