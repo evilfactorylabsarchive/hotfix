@@ -7,7 +7,7 @@ import renderer from "react-test-renderer";
 import App from "../pages/index.js";
 
 describe("With Enzyme", () => {
-  it('App shows "Hello world!"', () => {
+  it('App shows "We love those people—and you will too—because they shares so many great..."', () => {
     const app = shallow(<App />);
     const assertText =
       "We love those people—and you will too—because they shares so many great " +
