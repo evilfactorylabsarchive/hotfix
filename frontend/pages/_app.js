@@ -1,6 +1,9 @@
 import App, { Container } from 'next/app'
+import { ApolloProvider } from 'react-apollo'
 import NProgress from 'nprogress'
 import Router from 'next/router'
+
+import withApolloClient from '../lib/with-apollo-client'
 
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -9,14 +12,16 @@ Router.events.on('routeChangeStart', () => NProgress.start())
 Router.events.on('routeChangeComplete', () => NProgress.done())
 Router.events.on('routeChangeError', () => NProgress.done())
 
-export default class MyApp extends App {
+class MyApp extends App {
   render() {
-    const { Component, pageProps } = this.props
+    const { Component, pageProps, apolloClient } = this.props
 
     return (
       <Container>
         <Navbar />
-        <Component {...pageProps} />
+        <ApolloProvider client={apolloClient}>
+          <Component {...pageProps} />
+        </ApolloProvider>
         <Footer />
         <style jsx global>{`
           ::selection {
@@ -88,3 +93,5 @@ export default class MyApp extends App {
     )
   }
 }
+
+export default withApolloClient(MyApp)
