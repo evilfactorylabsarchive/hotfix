@@ -64,7 +64,7 @@
     "id": 31337,
     "name": "Suggest Us?",
     "about": "There are so many awesome people out there in Indonesia, and we need your help to submit your favorites here.",
-    "avatar": "https://via.placeholder.com/200/eee/eee",
+    "avatar": "/static/img/avatar/eee.png",
     "url": "/submit"
   }
 ]
