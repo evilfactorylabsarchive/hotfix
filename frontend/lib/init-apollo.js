@@ -1,6 +1,11 @@
 import { ApolloClient, InMemoryCache, HttpLink } from 'apollo-boost'
 import fetch from 'isomorphic-unfetch'
 
+const url =
+  process.env.NODE_ENV === 'production'
+    ? 'https://hotfix.evilfactory.now.sh'
+    : 'http://localhost:3000'
+
 let apolloClient = null
 
 function create(initialState) {
@@ -8,7 +13,7 @@ function create(initialState) {
     connectToDevTools: process.browser,
     ssrMode: !process.browser,
     link: new HttpLink({
-      uri: '/graphql',
+      uri: `${url}/graphql`,
       credentials: 'same-origin',
       fetch: !process.browser && fetch
     }),
