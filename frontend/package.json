@@ -20,6 +20,6 @@
     "enzyme": "3.9.0",
     "enzyme-adapter-react-16": "1.13.1",
     "jest-dom": "3.4.0",
-    "react-testing-library": "7.0.1"
+    "react-testing-library": "8.0.1"
   }
 }
