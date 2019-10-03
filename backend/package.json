@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "apollo-server-micro": "2.5.0",
-    "graphql": "14.3.1",
+    "graphql": "14.5.8",
     "lru-cache": "5.1.1"
   },
   "devDependencies": {
